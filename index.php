@@ -1,6 +1,22 @@
 <html>
   <head>
     <title>ShellCheck &ndash; shell script analysis tool</title>
+    <?php
+    $input='';
+
+    if ( isset($_GET['url']) && ! empty($_GET['url'])) {
+        $url = $_GET['url'];
+
+        // @NOTE: For this to work `allow_url_fopen` MUST be enabled in `php.ini`.
+        $file = file_get_contents($url);
+
+        if ($file === false) {
+            $input = 'Oops, could not load script from url "' . $url .'". Sorry!';
+        } else {
+            $input = htmlentities($file);
+        }
+    }
+    ?>
     <link rel="stylesheet" type="text/css" href="shellcheck.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="shellcheck.js"></script>
@@ -67,7 +83,7 @@ done
               <div class="titleitem mainitem"></div>
               <div class="titleitem"><textarea id="pastehack" type="text" rows=1 cols=2 style="vertical-align: middle; display:inline; "></textarea><a href="javascript:alert('Are you on mobile and unable to paste in the editor? Paste in this plaintext box to have it copied over.')">(?)</a></div><br />
             </div>
-            <pre id="input"></pre>
+            <pre id="input"><?=$input?></pre>
           </div>
         </div>
       </div>
