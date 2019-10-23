@@ -125,7 +125,12 @@ done
         </div>
       </div>
       <div class="contentpart">
-        Sounds awesome? <a href="https://github.com/koalaman/shellcheck">Read more about it</a> on the <a href="https://github.com/koalaman/shellcheck">GitHub page</a>!
+        <p>
+          Sounds awesome? <a href="https://github.com/koalaman/shellcheck">Read more about it</a> on the <a href="https://github.com/koalaman/shellcheck">GitHub page</a>!
+        </p>
+        <p>
+          This website is also open source <a href="https://github.com/koalaman/shellcheck.net">here</a>!
+        </p>
       </div>
     </div>
     <script src="libace/ace.js" type="text/javascript" charset="utf-8"></script>
