@@ -1,8 +1,6 @@
 var bugBaseUrl = "https://github.com/koalaman/shellcheck";
 
 function makeReportUrl(script, json) {
-  var title = "TODO: Add title";
-
   var template =
 		"#### For bugs\n" +
 		"- Rule Id (if any, e.g. SC1000): %ERRORS%\n" +
@@ -45,13 +43,5 @@ function makeReportUrl(script, json) {
 		.replace("%ERRORS%", errors)
 		.replace("%ACTUAL%", actual);
 
-	return newIssueUrl(bugBaseUrl, title, body);
+	return base + "/issues/new?body=" + encodeURIComponent(body);
 }
-
-function newIssueUrl(base, title, body) {
-	var url = base + "/issues/new?" +
-		"title=" + encodeURIComponent(title) +
-    "&body=" + encodeURIComponent(body) ;
-  return url;
-}
-
