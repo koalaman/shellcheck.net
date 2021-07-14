@@ -5,7 +5,7 @@ body {
   font-family: "Roboto", "Noto", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
   margin: 0em;
   padding: 0em;
-  background-color: #FFFFFF;
+  background-color: #272c33;
 }
 
 #header {
@@ -32,6 +32,8 @@ h1 {
 .contents {
   padding: 1em;
   text-align: center;
+  color: lightgrey;
+  background-color: #272c33;
 }
 
 .contentpart {
@@ -54,8 +56,10 @@ h1 {
 #github {
   display: inline-block;
 }
+
 a:link {
   text-decoration: none;
+  color: cornflowerblue;
 }
 
 h2 {
