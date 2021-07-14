@@ -87,11 +87,7 @@ h2 {
   display: flex;
   text-align: left;
   padding: 4px;
-  background:
-    linear-gradient(
-      rgba(245, 245, 245, 1.0),
-      rgba(230, 230, 230, 1.0)
-      );
+  background: rgb(74 74 74);
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -120,7 +116,6 @@ h2 {
   background: rgba(230, 230, 230, 1.0);
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  padding: 4px;
 }
 .menubar {
   display: flex;
