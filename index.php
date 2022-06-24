@@ -219,7 +219,7 @@ find backups/ \
     <script>
       var editor = ace.edit("input");
       editor.session.setMode("ace/mode/sh");
-      editor.session.setOptions({"tabSize": 8});
+      editor.session.setOptions({"tabSize": 8, "useSoftTab": false});
       editor.setFontSize(12);
       editor.on("change", editorChangeHandler);
 
