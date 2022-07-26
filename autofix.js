@@ -57,8 +57,7 @@ function AutoFixer(file) {
       candidates.push(candidate);
 
       for (var existing of this._replacements) {
-        if (existing.start < candidate.start && existing.end > candidate.start ||
-          existing.start < candidate.end && existing.end >= candidate.end) {
+        if (candidate.end > existing.start && existing.end > candidate.start) {
           return false;
         }
       }
@@ -76,7 +75,7 @@ function AutoFixer(file) {
     var tree = new PrefixSumTree();
     var file = this._file;
 
-    for (var rep of this._replacements) {
+    for (var rep of [...this._replacements].reverse()) {
       file = applyReplacement(file, tree, rep);
     }
     return file;
@@ -98,7 +97,7 @@ function AutoFixer(file) {
     var maxLine = this._replacements[0].endLine;
 
 
-    for (var rep of this._replacements) {
+    for (var rep of [...this._replacements].reverse()) {
       file = applyReplacement(file, tree, rep);
       minLine = Math.min(minLine, rep.startLine);
       maxLine = Math.max(maxLine, rep.endLine);
@@ -423,4 +422,5 @@ function autofixTest() {
       ]
     });
   assertEqual("cd foo || exit\n", fixer.getSnippet());
+  return true;
 }
