@@ -213,6 +213,7 @@ find backups/ \
         &#8226; <a href="https://github.com/pystardust/ani-cli">ani-cli</a>
         &#8226; <a href="https://codiga.io/">codiga.io</a>
         &#8226; <a href="https://SnapShooter.com">SnapShooter Backups</a>
+        &#8226; <a href="https://github.com/steve-chavez">steve-chavez</a>
       </div>
     </div>
     <p style="display: none"><a href="/wiki/">Wiki Sitemap</a></p>
