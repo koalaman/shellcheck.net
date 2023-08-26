@@ -195,24 +195,17 @@ find backups/ \
       <div class="contentpart">
         A special thanks to the <a href="https://github.com/sponsors/koalaman">GitHub Sponsors</a>:
 
-        <a href="https://github.com/benliddicott">benliddicott</a>
-        &#8226; <a href="https://gitpod.io">Gitpod</a>
-        &#8226; <a href="https://github.com/aniravi24">aniravi24</a>
+        <a href="https://gitpod.io">Gitpod</a>
         &#8226; <a href="https://opensource.mercedes-benz.com/">Mercedes-Benz</a> <!-- mercedes-benz -->
+        &#8226; <a href="https://www.bashsupport.com/pro/">BashSupport Pro</a> <!-- jansorg -->
 
         &#8226; <a href="https://github.com/per1234">per1234</a>
-        &#8226; <a href="https://www.bashsupport.com/pro/">BashSupport Pro</a> <!-- jansorg -->
-        &#8226; <a href="https://github.com/per1234">per1234</a>
         &#8226; <a href="https://github.com/WhitewaterFoundry">WhitewaterFoundry</a>
-        &#8226; <a href="https://github.com/reap2sow1">reap2sow1</a>
+        &#8226; <a href="https://github.com/cavcrosby">cavcrosby</a>
         &#8226; <a href="https://github.com/dcminter">dcminter</a>
         &#8226; <a href="https://github.com/photostructure">photostructure</a>
         &#8226; <a href="https://cronitor.io">Cronitor</a>
-        &#8226; <a href="https://github.com/devholic">devholic</a>
-        &#8226; <a href="https://github.com/qmacro">qmacro</a>
-        &#8226; <a href="https://github.com/pystardust/ani-cli">ani-cli</a>
-        &#8226; <a href="https://codiga.io/">codiga.io</a>
-        &#8226; <a href="https://SnapShooter.com">SnapShooter Backups</a>
+        &#8226; <a href="https://github.com/djdefi">djdefi</a>
         &#8226; <a href="https://github.com/steve-chavez">steve-chavez</a>
       </div>
     </div>
