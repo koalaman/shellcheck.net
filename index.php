@@ -198,6 +198,7 @@ find backups/ \
         <a href="https://gitpod.io">Gitpod</a>
         &#8226; <a href="https://opensource.mercedes-benz.com/">Mercedes-Benz</a> <!-- mercedes-benz -->
         &#8226; <a href="https://www.bashsupport.com/pro/">BashSupport Pro</a> <!-- jansorg -->
+        &#8226; <a href="https://github.com/marc-hb">marc-hb</a>
 
         &#8226; <a href="https://github.com/per1234">per1234</a>
         &#8226; <a href="https://github.com/WhitewaterFoundry">WhitewaterFoundry</a>
@@ -207,6 +208,7 @@ find backups/ \
         &#8226; <a href="https://cronitor.io">Cronitor</a>
         &#8226; <a href="https://github.com/djdefi">djdefi</a>
         &#8226; <a href="https://github.com/steve-chavez">steve-chavez</a>
+        &#8226; <a href="https://github.com/ChrLau">ChrLau</a>
       </div>
     </div>
     <p style="display: none"><a href="/wiki/">Wiki Sitemap</a></p>
