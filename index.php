@@ -210,6 +210,7 @@ find backups/ \
         &#8226; <a href="https://github.com/ChrLau">ChrLau</a>
         &#8226; <a href="https://github.com/cjgibson">cjgibson</a>
         &#8226; <a href="https://celebian.com/">Celebian</a> <!-- celebiancom -->
+        &#8226; <a href="https://bestkru.com/">BestKru</a>
       </div>
     </div>
     <p style="display: none"><a href="/wiki/">Wiki Sitemap</a></p>
