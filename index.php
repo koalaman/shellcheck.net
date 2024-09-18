@@ -129,7 +129,7 @@ find backups/ \
       </div>
 
       <div class="contentpart">
-        You can <code>cabal</code>, <code>apt</code>, <code>dnf</code>, <code>pkg</code> or <code>brew&nbsp;install</code> it locally right&nbsp;now.
+        You can <code>cabal</code>, <code>apt</code>, <code>dnf</code>, <code>pkg</code>, <code>pacman</code> or <code>brew&nbsp;install</code> it locally right&nbsp;now.
       </div>
 
       <div class="contentpart">
