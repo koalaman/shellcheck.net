@@ -193,27 +193,24 @@ find backups/ \
         </div>
       </div>
       <div class="contentpart">
-        A special thanks to the <a href="https://github.com/sponsors/koalaman">GitHub Sponsors</a>:
+        A special thanks to: 
 
         <a href="https://gitpod.io">Gitpod</a>
-        &#8226; <a href="https://opensource.mercedes-benz.com/">Mercedes-Benz</a> <!-- mercedes-benz -->
         &#8226; <a href="https://www.bashsupport.com/pro/">BashSupport Pro</a> <!-- jansorg -->
         &#8226; <a href="https://route4me.com/">Route4Me</a>
         &#8226; <a href="https://github.com/siemens">Siemens</a>
-
+  
         &#8226; <a href="https://github.com/per1234">per1234</a>
         &#8226; <a href="https://github.com/cavcrosby">cavcrosby</a>
         &#8226; <a href="https://github.com/dcminter">dcminter</a>
         &#8226; <a href="https://github.com/photostructure">photostructure</a>
         &#8226; <a href="https://cronitor.io">Cronitor</a>
-        &#8226; <a href="https://github.com/djdefi">djdefi</a>
         &#8226; <a href="https://github.com/steve-chavez">steve-chavez</a>
         &#8226; <a href="https://github.com/ChrLau">ChrLau</a>
         &#8226; <a href="https://github.com/cjgibson">cjgibson</a>
         &#8226; <a href="https://celebian.com/">Celebian</a> <!-- celebiancom -->
         &#8226; <a href="https://www.llc.org/">LLC.org loves open source</a> <!-- llcorg -->
         &#8226; <a href="https://bestkru.com/">BestKru</a>
-        &#8226; <a href="https://www.vpsserver.com/">VPSServer.com</a>
       </div>
     </div>
     <p style="display: none"><a href="/wiki/">Wiki Sitemap</a></p>
